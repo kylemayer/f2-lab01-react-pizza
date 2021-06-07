@@ -1,0 +1,98 @@
+.nav {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 25% auto 25%;
+    /* align-items: start; */
+    /* vertical-align: text-bottom; */
+}
+
+.logo-section {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sub-text {
+    font-size: .75em;
+    color: rgb(92, 92, 92);
+
+}
+
+h2 {
+    font-family: cursive;
+}
+
+p.indent {
+    text-indent: 30px;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+}
+
+.post-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+
+hr {
+    background-image: url('hr-img.png');
+    height: 10px;
+    border: none;
+
+}
+
+.profile-section {
+    display: grid;
+    grid-template-columns: 20% auto 25%;
+}
+
+.profile-text {
+    text-align: left;
+}
+
+button {
+    width: 125px;
+    height: 50px;
+    background-color: #C67C6F;
+    color: white;
+}
+
+.tiny-logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    height: 50px;
+    width: 50px;
+    padding: 0 5px;
+    background: #fff url(http://www.dylanvanheugten.nl/images/logo.png) no-repeat 50% 50%;
+
+}
+
+.line {
+    position: relative;
+    overflow: visible;
+    height: 1px;
+    background-color: #ddd;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+.foot {
+    margin-top: 25px;
+}
+
+.list-section {
+    display: flex;
+    width: 900px;
+    height: 300px;
+    background-image: url('list-bg.png');
+    justify-self: center;
+    margin-bottom: 20px;
+
+}
